@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background-color: #f9f9f9;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  font-size: 16px;
+  background-color: #fff;
+  position: relative;
+  top: 300px;
+  border: 1px solid #eee;
+  padding: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 20px;
+}
+header {
+  height: 75px;
+}
+
+.user__welcome {
+  position: relative;
+  bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-display: swap;
+}
+.user__welcome__msg {
+  position: relative;
+  bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.form {
+  position: fixed;
+}
+.email {
+  position: relative;
+  width: 200px;
+  padding: 6px;
+  margin: 5px;
+  border-radius: 10px;
+  border-color: #eee;
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-display: swap;
+  left: -5px;
+}
+.password {
+  position: relative;
+  width: 200px;
+  padding: 6px;
+  margin: 5px;
+  left: -5px;
+  border-radius: 10px;
+  border-color: #eee;
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-display: swap;
+}
+.submit {
+  position: relative;
+  padding: 6px;
+  margin: 5px;
+  left: -5px;
+  width: 220px;
+  border-radius: 10px;
+  background-color: #3443eb;
+  border-color: #3443eb;
+  color: #eee;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-display: swap;
+}
+.ablank {
+  position: relative;
+  top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-display: swap;
+  color: black;
+}
